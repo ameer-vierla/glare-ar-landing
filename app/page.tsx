@@ -82,6 +82,7 @@ export default function Home() {
               color: 'rgba(255, 255, 255, 0.8)',
               letterSpacing: '0.05em',
             }}
+            suppressHydrationWarning
           >
             Try any look in AR instantly. Upload a photo or use live camera. Works with any phone.
           </h2>
@@ -110,6 +111,7 @@ export default function Home() {
               color: '#ffffff',
               letterSpacing: '0.05em',
             }}
+            suppressHydrationWarning
           >
             {showGlitch ? 'glarear.art' : 'Glare AR'}
           </h1>
@@ -120,6 +122,7 @@ export default function Home() {
               color: 'rgba(102, 102, 102, 0.3)',
               letterSpacing: '0.05em',
             }}
+            suppressHydrationWarning
           >
             Studio CRM Inventory Booking
           </p>
@@ -130,6 +133,7 @@ export default function Home() {
               color: 'rgba(136, 136, 136, 0.15)',
               letterSpacing: '0.05em',
             }}
+            suppressHydrationWarning
           >
             Viela 2025
           </p>
