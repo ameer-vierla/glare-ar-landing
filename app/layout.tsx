@@ -20,12 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="preload" href="/phone_17_pro_max.glb" as="fetch" crossOrigin="anonymous" />
         <link rel="preload" href="/texture.av1.mp4" as="fetch" crossOrigin="anonymous" />
       </head>
-      <body>{children}</body>
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }
