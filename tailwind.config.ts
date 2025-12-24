@@ -10,6 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         'glare-blue': '#00BFFF',
+        'glare-white': 'rgba(255, 255, 255, 0.8)',
+        'glare-gray': 'rgba(102, 102, 102, 0.3)',
+        'glare-dark': 'rgba(136, 136, 136, 0.15)',
       },
       fontFamily: {
         'inter-thin': ['Inter', 'sans-serif'],

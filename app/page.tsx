@@ -77,20 +77,14 @@ export default function Home() {
       <section className="relative w-full min-h-screen flex flex-col items-center justify-center px-6 md:px-12">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 
-            className="text-2xl md:text-5xl font-thin glare-glow"
-            style={{ 
-              color: 'rgba(255, 255, 255, 0.8)',
-              letterSpacing: '0.05em',
-            }}
-            suppressHydrationWarning
+            className="text-2xl md:text-5xl font-thin glare-glow text-glare-white tracking-glare"
           >
             Try any look in AR instantly. Upload a photo or use live camera. Works with any phone.
           </h2>
           
           <button
             onClick={() => setIsModalOpen(true)}
-            className="group relative px-8 py-4 text-lg md:text-xl font-thin border border-glare-blue text-white transition-all duration-800 hover:bg-glare-blue hover:text-black"
-            style={{ letterSpacing: '0.05em' }}
+            className="group relative px-8 py-4 text-lg md:text-xl font-thin border border-glare-blue text-white transition-all duration-800 hover:bg-glare-blue hover:text-black tracking-glare"
           >
             Try Glare AR
           </button>
@@ -104,36 +98,21 @@ export default function Home() {
       >
         <div className="text-center space-y-6">
           <h1 
-            className={`text-7xl md:text-[220px] font-thin pulse-glow transition-all duration-500 ${
+            className={`text-7xl md:text-[220px] font-thin pulse-glow transition-all duration-500 text-white tracking-glare ${
               showGlitch ? 'glitch' : ''
             }`}
-            style={{ 
-              color: '#ffffff',
-              letterSpacing: '0.05em',
-            }}
-            suppressHydrationWarning
           >
             {showGlitch ? 'glarear.art' : 'Glare AR'}
           </h1>
           
           <p 
-            className="text-xs md:text-sm font-thin"
-            style={{ 
-              color: 'rgba(102, 102, 102, 0.3)',
-              letterSpacing: '0.05em',
-            }}
-            suppressHydrationWarning
+            className="text-xs md:text-sm font-thin text-glare-gray tracking-glare"
           >
             Studio CRM Inventory Booking
           </p>
           
           <p 
-            className="text-[10px] md:text-xs font-thin transition-all duration-1000 hover:brightness-150 hover:text-glare-blue cursor-pointer"
-            style={{ 
-              color: 'rgba(136, 136, 136, 0.15)',
-              letterSpacing: '0.05em',
-            }}
-            suppressHydrationWarning
+            className="text-[10px] md:text-xs font-thin transition-all duration-1000 hover:brightness-150 hover:text-glare-blue cursor-pointer text-glare-dark tracking-glare"
           >
             Viela 2025
           </p>
